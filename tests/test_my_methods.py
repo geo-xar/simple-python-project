@@ -1,10 +1,5 @@
 import unittest
-from my_methods import get_id
-import sys
-import os
-
-# Add the project root directory to the PYTHONPATH
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from my_module.my_methods import get_id
 
 
 class TestGetId(unittest.TestCase):
